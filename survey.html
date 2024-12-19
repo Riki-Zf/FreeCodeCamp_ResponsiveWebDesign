@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="judul">
+        <h1 id="title">bagaimana pengalaman anda menggunakan website kami</h1>
+        <p id="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, iusto velit quia fugiat et, est recusandae autem nulla provident distinctio itaque, ut optio exercitationem! Velit?</p>
+      </div>
+
+      <div class="container">
+        <form id="survey-form">
+          <div class="form-group">
+            <label for="name" id="name-label">Nama :</label>
+            <input type="text" id="name" name="name" required placeholder="Masukkan nama" />
+          </div>
+
+          <div class="form-group">
+            <label for="email" id="email-label">Email :</label>
+            <input type="email" id="email" required placeholder="masukkan email" />
+          </div>
+
+          <div class="form-group">
+            <label for="number" id="number-label">Umur :</label>
+            <input type="number" id="number" min="1" max="120" required placeholder="masukkan umur" />
+          </div>
+
+          <div class="form-group">
+            <label for="select">tingkat kepuasan anda</label>
+            <select name="select" id="dropdown" required>
+              <option>pilih</option>
+              <option>b aja</option>
+              <option>puas</option>
+              <option>mantap bang</option></select
+            ><br />
+          </div>
+
+          <div class="from-group">
+            <p>jenis kelamin</p>
+            <label for="radio"> <input type="radio" name="gender" value="male" /> laki-laki </label>
+            <label for="radio"> <input type="radio" name="gender" value="female" /> Wanita </label>
+          </div>
+
+          <div class="form-group">
+            <p>hobi anda</p>
+            <label for="checkbox"> <input type="checkbox" value="sleep" /> turu </label>
+            <label for="checkbox"> <input type="checkbox" value="eat" /> makan </label>
+          </div>
+
+          <div class="form-group">
+            <p>saran dan komentar</p>
+            <label for="komen">komentar anda :</label>
+            <textarea placeholder="ketik 1 untuk pulsa gratis"></textarea>
+          </div>
+
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

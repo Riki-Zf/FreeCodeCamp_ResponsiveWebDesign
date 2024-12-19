@@ -1,0 +1,100 @@
+body {
+  font-family: "Segoe UI";
+}
+
+.navbar {
+  height: 70px;
+  background-color: #191970;
+  font-weight: lighter;
+}
+.navbar-nav {
+  margin-left: 60em;
+}
+.nav-link {
+  font-size: 1.2em;
+  margin-left: 4em;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: 46em;
+}
+.h1-title {
+  font-size: 60px;
+  font-weight: 700;
+}
+.p-title {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 20px;
+}
+#projects {
+  background-color: rgb(210, 208, 237);
+  padding: 20px;
+  margin: 20px;
+}
+.project-tile {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+.box-project {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 20px;
+  border: 3px solid black;
+  padding: 20px;
+}
+.mini-title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  align-items: center;
+  margin: 20px;
+  font-size: 27px;
+}
+.profile-title {
+  color: white;
+  font-size: 3.7em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+.profile-link {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5em;
+}
+.profile-item {
+  margin: 20px;
+}
+#profile-link {
+  font-family: "Segoe UI";
+  text-decoration: none;
+  color: white;
+}
+.line {
+  border: 3px solid rgb(210, 208, 237);
+}
+#profile-container {
+  margin-bottom: 12em;
+}
